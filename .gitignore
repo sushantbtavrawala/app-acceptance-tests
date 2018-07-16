@@ -1,6 +1,12 @@
-# Created by .ignore support plugin (hsz.mobi)
-target
+
+logs
 project/project
+project/target
+target
+lib_managed
+tmp
+.history
+dist
 /.idea
 /*.iml
 /*.ipr
@@ -10,7 +16,8 @@ project/project
 /.project
 /RUNNING_PID
 /.settings
-.run-end-to-end-tests.sh
 .run_wip_local.sh
 *.iws
 drivers
+
+
