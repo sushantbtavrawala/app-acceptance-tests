@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.applitools:eyes-sdk-java:2.15:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.applitools/eyes-sdk-java/jars/eyes-sdk-java-2.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.applitools/eyes-sdk-java/srcs/eyes-sdk-java-2.15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

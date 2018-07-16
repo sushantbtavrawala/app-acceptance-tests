@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: com.applitools:eyes-selenium-java:2.19:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.applitools/eyes-selenium-java/jars/eyes-selenium-java-2.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/com.applitools/eyes-selenium-java/srcs/eyes-selenium-java-2.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

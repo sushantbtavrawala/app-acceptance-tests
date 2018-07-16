@@ -1,0 +1,64 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Check navigation to ebay home page",
+        "description": "",
+        "id": "check-ebay-home-page;check-navigation-to-ebay-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 134727224,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigate to the \"ebay home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ebay home",
+                  "offset": 19
+                }
+              ],
+              "location": "CommonStepDef.scala:11"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 116867,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I will be on the \"ebay home\" page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ebay home",
+                  "offset": 18
+                }
+              ],
+              "location": "CommonStepDef.scala:15"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Ebay Home Page",
+    "description": "",
+    "id": "check-ebay-home-page",
+    "keyword": "Feature",
+    "uri": "app_home_page.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@wip"
+      }
+    ]
+  }
+]
