@@ -1,5 +1,4 @@
 @wip
-
 Feature: Check Ebay Home Page
 
   Scenario: Check navigation to ebay home page
