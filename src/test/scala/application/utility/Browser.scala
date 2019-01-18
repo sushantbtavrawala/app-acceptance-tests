@@ -1,10 +1,9 @@
 package application.utility
 
+
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
-import org.scalatest.tags.FirefoxBrowser
-
 import scala.util.Try
 
 /**
@@ -25,6 +24,7 @@ object Browser {
     browserProperty match {
       case "firefox-local" =>  new FirefoxDriver()
       case "chrome-local" => new ChromeDriver()
+      case "browserstack" => BrowserStack.initialise()
       case _ => throw new IllegalArgumentException(s"Enviornment '$browserProperty' not known")
     }
   }
